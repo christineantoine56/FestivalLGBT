@@ -1,0 +1,299 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:antoine
+Author URI:
+Template:twentytwelve
+Version:0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+body{
+  color:#202020 !important;
+}
+/******************* POUR LE HEADER-MENU******************/
+
+.site-description{
+  color:#33fff0 !important;
+   padding:5px;
+   font-style:italic;
+   text-indent:10px;
+}
+.site-header h2{
+  font-size:1.4em;
+}
+
+.site-title a{
+   color:#ffffff !important;
+   font-variant:small-caps;
+   font-style:italic;
+   padding:5px;
+   font-size:2em;
+}
+
+.main-navigation li{
+
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.fg-rouge a{
+  color: #ff0000 !important; 
+ padding:2px;
+ width:90px;
+  text-align:center;
+   font-weight:bold;
+   font-size:1.3em;
+   
+    }
+.fg-rouge a:hover{
+  color:#ffffff !important;
+  background:#ff0000;
+   text-shadow:1px 1px 0px black;
+
+
+}
+.fg-orange a {
+  color: #ff6600 !important;
+  width:90px;
+  text-align:center;
+  padding:2px;
+   font-weight:bold;
+   font-size:1.3em;
+   
+ }
+.fg-orange a:hover{
+  color:#ffffff !important;
+  background:#ff6600;
+   text-shadow:1px 1px 0px black;
+
+
+}
+
+
+
+.fg-jaune a {
+  color:#ffff00 !important;
+  width:165px;
+  text-align:center;
+  padding:2px;
+  font-weight:bold;
+  font-size:1.3em;
+  }
+
+.fg-jaune a:hover{
+  color:#ffffcc !important;
+  background:#ffff99;
+  text-shadow:1px 1px 0px black;
+
+}
+
+.fg-bleu a {
+  color:#0066ff !important;
+  width:165px;
+  text-align:center;
+  padding:2px;
+   font-weight:bold;
+   font-size:1.3em;
+}
+
+.fg-bleu a:hover{
+  color:#ffffff !important;
+  background:#0066ff;
+   text-shadow:1px 1px 0px black;
+
+}
+
+.fg-vert a { color:#33ff00 !important;
+  width:165px;
+  text-align:center;
+  padding:2px;
+   font-weight:bold;
+   font-size:1.3em;
+  }
+
+.fg-vert a:hover{
+  color:#ffffff !important;
+  background:#33ff00;
+   text-shadow:1px 1px 0px black;
+}
+
+.fg-violet a {color:#ff00ff !important;
+   width:165px;
+   text-align:center;
+   padding:2px;
+  font-weight:bold;
+font-size:1.3em;
+}
+
+   .fg-violet a:hover{
+  color:#ffffff !important;
+  background:#ff00ff;
+   text-shadow:1px 1px 0px black;
+
+
+}
+
+   .nav-menu{
+  padding:10px;
+}
+
+
+   /*********** POUR LE SLIDESHOW********************/
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+  }
+
+.rslides img {
+    display: block;
+    float: left;
+    border: 0;
+  }
+
+
+
+#monslide{
+   width:60%;
+   margin: 0 auto;
+}
+
+#monslide img{
+  width:auto;
+  height:400px;
+}
+/**************la page**********************/
+.hfeed{
+  background:#778899;
+}
+
+/*************POUR LE CONTENT******************/
+#content{
+  background: #fff5ee;
+  padding:10px;
+  -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;
+ }
+
+ 
+
+
+/***********POUR L'AGENDA ********************/
+#text-2{
+
+  background:#fff5ee;
+  padding:10px;
+  width:250px;
+   -moz-border-radius:10px 10px 10px 10px;
+   -webkit-border-radius:10px 10px 10px 10px;
+   border-radius:10px 10px 10px 10px;
+  }
+
+.widget h3{
+  font-size:1.4em;
+  color:#ff00ff;
+  text-align: center;
+   border-bottom: 2px dotted #33ff00;
+}
+
+
+.prog-date{
+  font-variant:small-caps;
+  font-weight: bold;
+  color:#ff00ff;
+}
+
+
+/*************pour les pages films et courts metrages*************/
+#content .category-films{
+
+  border-bottom:5px dotted #33ff00;
+}
+
+
+#content .category-courts-metrages{
+  border-bottom:5px dotted #33ff00;
+}
+
+
+/*************pour les pages remerciements et partenaires*****************/
+
+
+.post-14 .entry-title{
+   text-align: center;
+   font-size: 3em;
+   font-weight:bold;
+   font-variant:small-caps;
+   margin-top: 20px;
+   color:#ff00ff;
+  }
+
+.post-14 ul{
+  margin-left: 100px;
+}
+
+.post-14 ul li{
+  padding:10px;
+  font-size: 1.2em;
+}
+
+.post-15 .entry-title{
+   text-align: center;
+   font-size: 3em;
+   font-weight:bold;
+   font-variant:small-caps;
+   margin-top: 20px;
+   color:#0066ff;
+  }
+
+.post-15 ul{
+  margin-left: 100px;
+}
+
+.post-15 ul li{
+  padding:10px;
+  font-size: 1.2em;
+}
+
+
+/*****************POUR INFOS PRATIQUES*****************/
+
+.post-13 .entry-title{
+   text-align: center;
+   font-size: 3em;
+   font-weight:bold;
+   font-variant:small-caps;
+   margin-top: 20px;
+   color:#33ff00;
+  }
+
+.post-13 ul{
+  margin-left: 100px;
+}
+
+.post-13 ul li{
+  padding:10px;
+  font-size: 1.2em;
+}
